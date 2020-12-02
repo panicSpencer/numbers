@@ -15,4 +15,3 @@ do
 		N=$((N+1))
 	fi
 done
-echo "Thank you"
