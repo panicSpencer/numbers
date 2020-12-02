@@ -6,7 +6,7 @@ read i
 N=1
 while [ "$N" -le "$i" ]
 do
-	if $((N%2)) -eq 0
+	if [ $((N%2)) -eq 0 ]
 	then
 		echo $N "even"
 		N=$((N+1))
